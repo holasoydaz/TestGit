@@ -7,7 +7,7 @@ public class ButtonMenu : MonoBehaviour
     public float coins;
     void Start()
     {
-        GetComponent<Rigidbody>().isKinematic = true;
+        GetComponent<BoxCollider>().isTrigger = true;
     }
 
     // Update is called once per frame
